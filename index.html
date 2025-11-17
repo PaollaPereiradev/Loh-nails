@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/src/styles/styles.css">
+  <link rel="stylesheet" href="/src/styles/header.css">
+  <link rel="stylesheet" href="/src/styles/home.css">
+  <link rel="stylesheet" href="src/styles/procedimentos.css">
+  <link rel="stylesheet" href="src/styles/tabelaValo.css">
+  <link rel="stylesheet" href="src/styles/avisos.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <title>Lohnails</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <img src="icons/logo loh2.png" id="nav-logo" alt="Logo Lohnails">
+
+      <ul id="nav-list">
+        <li class="nav-item active">
+          <a href="#home">Início</a>
+        </li>
+        <li class="nav-item">
+          <a href="#procedimentos">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a href="#avisos">Avisos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#tabela-valores">Tabela de valores</a>
+        </li>
+      </ul>
+      <button class="bnt-default">Agende seu horário</button>
+      <!-- Botão mobile -->
+      <button id="mobile_btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+    <div id="mobile-menu">
+      <ul id="mobile-nav-list">
+        <li class="nav-item"><a href="#home">Início</a></li>
+        <li class="nav-item"><a href="#procedimentos">Serviços</a></li>
+        <li class="nav-item"><a href="#avisos">Avisos</a></li>
+        <li class="nav-item"><a href="#tabela-valores">Tabela de valores</a></li>
+      </ul>
+      <button class="bnt-default">Agende seu horário</button>
+    </div>
+  </header>
+  <main id="content">
+    <section id="home">
+      <div id="cta">
+        <h1 class="title">
+          Unhas impecáveis começam<br>
+           escolhas certas.
+          <p class="destaque">Veja nosso catálogo <br>completo</p>
+        </h1>
+        <div id="cta-buttons">
+          <a href="#" class="bnt-default">
+            Ver catálogo
+          </a>
+
+          <a href="tel:+55 62 9402-0543" id="phone-button">
+            <button class="bnt-default">
+              <i class="fa-solid fa-phone"></i>
+            </button>
+            (62) 9402-0543
+          </a>
+        </div>
+        <div class="social-media-buttons">
+          <a href="#">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img class="image-banner" src="./icons/imagenails.png" alt="">
+      </div>
+    </section>
+  </main>
+  <section id="procedimentos" class="procedimentos">
+    <h2 class="procedimentos-title">PROCEDIMENTOS</h2>
+    <p class="procedimentos-subtitle">Conheça nossos procedimentos</p>
+
+    <div class="procedimentos-grid">
+      <div class="procedimento-card">
+        <img src="icons/unha1.jpg" alt="Alongamento">
+        <div class="procedimento-info">Alongamento</div>
+      </div>
+      <div class="procedimento-card">
+        <img src="icons/unha4.jpg" alt="Banho de gel">
+        <div class="procedimento-info">Banho de gel</div>
+      </div>
+
+      <div class="procedimento-card">
+        <img src="icons/unha6.jpg" alt="Blindagem">
+        <div class="procedimento-info">Blindagem</div>
+      </div>
+    </div>
+  </section>
+  <div class="tabela-de-valores">
+    <div class="tabela-de-valores-child">
+    </div>
+    <b class="tabela-de-valores1">TABELA DE VALORES</b>
+    <div class="tabela-de-valores2">
+      <div class="manicure">
+        <div class="manicure-child">
+        </div>
+        <b class="manicure1">Manicure</b>
+        <b class="alongamento-fibra">Alongamento Fibra</b>
+        <b class="alongamento-molde-f1">Alongamento molde F1</b>
+        <b class="banho-de-gel">Banho de Gel</b>
+        <b class="blindagem">Blindagem</b>
+        <b class="esmaltao-tradicional">Esmaltação Tradicional</b>
+        <b class="esmaltao-em-gel">Esmaltação em Gel</b>
+        <div class="valor">
+          <div class="valor-child">
+          </div>
+          <div class="r-13000">R$ 130,00</div>
+        </div>
+        <div class="valor1">
+          <div class="valor-child">
+          </div>
+          <div class="r-13000">R$ 120,00</div>
+        </div>
+        <div class="valor2">
+          <div class="valor-child">
+          </div>
+          <div class="r-2500">R$ 25,00</div>
+        </div>
+        <div class="valor3">
+          <div class="valor-child">
+          </div>
+          <div class="r-4000">R$ 40,00</div>
+        </div>
+        <div class="valor4">
+          <div class="valor-child">
+          </div>
+          <div class="r-10000">R$ 100,00</div>
+        </div>
+        <div class="valor5">
+          <div class="valor-child">
+          </div>
+          <div class="r-2500">R$ 70,00</div>
+        </div>
+      </div>
+      <div class="pedicure">
+        <div class="pedicure-child">
+        </div>
+        <b class="pedicure1">Pedicure</b>
+        <b class="esmaltao-tradicional1">Esmaltação Tradicional</b>
+        <b class="esmaltao-em-gel1">Esmaltação em gel</b>
+        <div class="reposio-de-unhas-container">
+          <b>Reposição de unhas </b>
+          <span class="por-unha">(por unha)</span>
+        </div>
+        <b class="banho-de-gel1">Banho de gel + Pedicure</b>
+        <b class="spa-dos-ps">SPA dos pés + esmaltação</b>
+        <b class="spa-dos-ps1">SPA dos pés</b>
+        <div class="valor">
+          <div class="valor-child">
+          </div>
+          <div class="r-2500">R$ 25,00</div>
+        </div>
+        <div class="valor7">
+          <div class="valor-child">
+          </div>
+          <div class="r-4000">R$ 40,00</div>
+        </div>
+        <div class="valor8">
+          <div class="valor-child">
+          </div>
+          <div class="r-2500">R$ 50,00</div>
+        </div>
+        <div class="valor9">
+          <div class="valor-child">
+          </div>
+          <div class="r-4000">R$ 40,00</div>
+        </div>
+        <div class="valor10">
+          <div class="valor-child">
+          </div>
+          <div class="r-4000">R$ 110,00</div>
+        </div>
+        <div class="valor11">
+          <div class="valor-child">
+          </div>
+          <div class="r-500">R$ 5,00</div>
+        </div>
+      </div>
+      <div class="remoo">
+        <div class="manicure-child">
+        </div>
+        <b class="manuteno">Manutenção</b>
+        <b class="alongamento-fibra">De 15 à 20 dias</b>
+        <b class="de-30-ou">De 30 ou mais dias</b>
+        <b class="banho-de-gel2">Banho de gel</b>
+        <b class="de-20">De 20 à 30 dias</b>
+        <div class="valor">
+          <div class="valor-child">
+          </div>
+          <div class="r-4000">R$ 90,00</div>
+        </div>
+        <div class="valor13">
+          <div class="valor-child">
+          </div>
+          <div class="r-10000">R$ 100,00</div>
+        </div>
+        <div class="valor14">
+          <div class="valor-child">
+          </div>
+          <div class="r-4000">R$ 110,00</div>
+        </div>
+        <div class="valor15">
+          <div class="valor-child">
+          </div>
+          <div class="r-4000">R$ 80,00</div>
+        </div>
+      </div>
+      <div class="remoo1">
+        <div class="manicure-child">
+        </div>
+        <b class="manicure1">Remoção</b>
+        <b class="alongamento-fibra">Alongamentos</b>
+        <b class="de-30-ou">Banho de Gel</b>
+        <b class="banho-de-gel2">Blindagem</b>
+        <b class="de-20">Esmaltação em Gel</b>
+        <div class="valor">
+          <div class="valor-child">
+          </div>
+          <div class="r-4000">R$ 60,00</div>
+        </div>
+        <div class="valor13">
+          <div class="valor-child">
+          </div>
+          <div class="r-2500">R$ 20,00</div>
+        </div>
+        <div class="valor14">
+          <div class="valor-child">
+          </div>
+          <div class="r-4000">R$ 40,00</div>
+        </div>
+        <div class="valor15">
+          <div class="valor-child">
+          </div>
+          <div class="r-2500">R$ 30,00</div>
+        </div>
+      </div>
+      <div class="adicionais">
+        <div class="manicure-child">
+        </div>
+        <b class="adicionais1">Adicionais</b>
+        <b class="decoraes">Decorações:</b>
+        <div class="encapsulado-par">
+          <b>Encapsulado </b>
+          <span class="por-unha">(PAR)</span>
+        </div>
+        <b class="nail-art-">Nail art - Valor sob consulta</b>
+        <div class="decorao-3d-par-container">
+          <b>Decoração 3D </b>
+          <span class="por-unha">(PAR)</span>
+        </div>
+        <div class="valor20">
+          <div class="valor-child">
+          </div>
+          <div class="r-1000">R$ 10,00</div>
+        </div>
+        <div class="valor21">
+          <div class="valor-child">
+          </div>
+          <div class="r-1000">R$ 10,00</div>
+        </div>
+        <img class="material-symbols-lightstar-icon" alt="" src="icons/star-solid-full.svg">
+        <img class="material-symbols-lightstar-icon1" alt="" src="icons/star-solid-full.svg">
+        <img class="material-symbols-lightstar-icon2" alt="" src="icons/star-solid-full.svg">
+      </div>
+    </div>
+    <div class="formas-de-pagamento">
+      <div class="carto">
+        <img class="ioncard-sharp-icon" alt="" src="icons/credit-card-solid-full.svg">
+        <div class="carto1">Cartão</div>
+      </div>
+      <div class="pix">
+        <img class="ioncard-sharp-icon" alt="" src="icons/pix-brands-solid-full.svg">
+        <div class="pix1">PIX</div>
+      </div>
+      <div class="dinheiro">
+        <img class="ioncard-sharp-icon" alt="" src="icons/money-bills-solid-full.svg">
+        <div class="dinheiro1">Dinheiro</div>
+      </div>
+    </div>
+    <b class="formas-de-pagamento1">FORMAS DE PAGAMENTO</b>
+  </div>
+
+  <div class="avisos">
+    <div class="avisos-child">
+    </div>
+    <b class="fique-atenta-aos">Fique atenta aos detalhes</b>
+    <div class="avisos1">
+      <div class="lembrete">
+        <div class="lembrete-child">
+        </div>
+        <div class="evite-fazer-a-container">
+          <ul class="evite-fazer-a-cutilagem-por-pe">
+            <li>
+              <b class="evite-fazer-a">Evite fazer a cutilagem</b>
+              <span class="por-pelo-menos"> por pelo menos </span>
+              <b class="evite-fazer-a">uma semana antes</b>
+              <span class="do-atendimento-para"> do atendimento, para garantir um melhor resultado e preservar a saúde das unhas.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="esteja-disponvel-no-container">
+          <ul class="evite-fazer-a-cutilagem-por-pe">
+            <li>
+              <b class="evite-fazer-a">Esteja disponível no dia do atendimento</b>
+              <span class="do-atendimento-para">, pois o tempo pode variar conforme o tamanho das unhas ou o nível de detalhamento da decoração.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="em-caso-de-container">
+          <ul class="evite-fazer-a-cutilagem-por-pe">
+            <li>
+              <span class="por-pelo-menos">Em caso de </span>
+              <b class="evite-fazer-a">cancelamento</b>
+              <span class="do-atendimento-para">, pedimos que avise com no mínimo 1 dia de antecedência, para melhor organização da agenda.</span>
+            </li>
+          </ul>
+        </div>
+        <b class="leia-com-carinho">Leia com carinho antes do seu horário</b>
+      </div>
+      <div class="lembrete-nail-art">
+        <div class="lembrete-child">
+        </div>
+        <b class="nail-art">NAIL ART</b>
+        <img class="lembrete-nail-art-item" alt="" src="icons/unha3.jpg">
+        <img class="lembrete-nail-art-inner" alt="" src="icons/unha4.jpg">
+        <img class="rectangle-icon" alt="" src="icons/unha2.jpg">
+        <div class="as-nail-arts-container">
+          <span class="do-atendimento-para">As Nail Arts são decorações mais elaboradas, que podem variar o tempo de atendimento e são cobradas à parte. </span>
+          <b class="evite-fazer-a">O orçamento é feito diretamente pelo WhatsApp.</b>
+        </div>
+      </div>
+      <div class="localizao">
+        <div class="lembrete-child">
+        </div>
+        <b class="localizao1">Localização</b>
+        <div class="lorem-ipsum-sollicitudin">Lorem ipsum sollicitudin diam</div>
+        <img class="localizao-item" alt="" src="https://imgs.search.brave.com/WH0hWiUPBXV0gZfCDz0Z5mjO6FFMUnmgbr8RZW_Q2Z8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMw/ODM0MjA2NS9wdC92/ZXRvcmlhbC9mb2xk/ZWQtbG9jYXRpb24t/bWFwLXdpdGgtbWFy/a2VyLWNpdHktbWFw/LXdpdGgtcGluLXBv/aW50ZXItZ3BzLW5h/dmlnYXRpb24tbWFw/LXdpdGgtY2l0eS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/aF8yUUpkRFlEVHBs/dnBNb2dsWkdEc3Zi/eW5xM2k2MlN6UjMt/MVZmZ0xadz0">
+      </div>
+    </div>
+  </div>
+
+  <script src="src/javaScript/sript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,537 @@
+.tabela-de-valores-child {
+  
+  padding: 40px 20px;
+  	top: 32px;
+  	left: 1px;
+  	background-color: #d97790;
+  	width: 100%;
+  	height: 1020px;
+}
+.tabela-de-valores1 {
+  	position: absolute;
+  	top: 132px;
+  	left: calc(50% - 219.5px);
+  	text-shadow: 4px 5px 8px rgba(0, 0, 0, 0.25);
+}
+.manicure-child {
+  	height: 92.5%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 7.5%;
+  	left: 0%;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fffafa;
+}
+.manicure1 {
+  	position: absolute;
+  	width: 48.92%;
+  	top: 10.25%;
+  	left: 25.68%;
+  	font-size: 34px;
+  	display: inline-block;
+}
+.alongamento-fibra {
+  	position: absolute;
+  	top: 29.25%;
+  	left: 6.49%;
+  	font-family: Poppins;
+}
+.alongamento-molde-f1 {
+  	position: absolute;
+  	top: 38.75%;
+  	left: 6.49%;
+  	font-family: Poppins;
+}
+.banho-de-gel {
+  	position: absolute;
+  	top: 67.25%;
+  	left: 6.49%;
+  	font-family: Poppins;
+}
+.blindagem {
+  	position: absolute;
+  	top: 76.75%;
+  	left: 6.49%;
+  	font-family: Poppins;
+}
+.esmaltao-tradicional {
+  	position: absolute;
+  	width: 55.41%;
+  	top: 48.25%;
+  	left: 6.49%;
+  	display: inline-block;
+  	font-family: Poppins;
+}
+.esmaltao-em-gel {
+  	position: absolute;
+  	width: 55.41%;
+  	top: 57.75%;
+  	left: 6.49%;
+  	display: inline-block;
+  	font-family: Poppins;
+}
+.valor-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 8px;
+  	background-color: #ffb3c6;
+  	width: 78px;
+  	height: 28px;
+}
+.r-13000 {
+  	position: absolute;
+  	top: 6px;
+  	left: calc(50% - 33px);
+}
+.valor {
+  	position: absolute;
+  	top: 113px;
+  	left: 271px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.valor1 {
+  	position: absolute;
+  	top: 151px;
+  	left: 270px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.r-2500 {
+  	position: absolute;
+  	top: 6px;
+  	left: calc(50% - 30px);
+}
+.valor2 {
+  	position: absolute;
+  	top: 189px;
+  	left: 270px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.r-4000 {
+  	position: absolute;
+  	top: 6px;
+  	left: calc(50% - 31px);
+}
+.valor3 {
+  	position: absolute;
+  	top: 227px;
+  	left: 270px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.r-10000 {
+  	position: absolute;
+  	top: 6px;
+  	left: calc(50% - 34px);
+}
+.valor4 {
+  	position: absolute;
+  	top: 265px;
+  	left: 270px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.valor5 {
+  	position: absolute;
+  	top: 303px;
+  	left: 270px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.manicure {
+  	position: absolute;
+  	top: 5px;
+  	left: 0px;
+  	width: 370px;
+  	height: 400px;
+}
+.pedicure-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background-color: #fffafa;
+}
+.pedicure1 {
+  	position: absolute;
+  	width: 48.92%;
+  	top: 11.08%;
+  	left: 25.68%;
+  	font-size: 34px;
+  	display: inline-block;
+}
+.esmaltao-tradicional1 {
+  	position: absolute;
+  	top: 31.62%;
+  	left: 6.49%;
+  	font-family: Poppins;
+}
+.esmaltao-em-gel1 {
+  	position: absolute;
+  	top: 41.62%;
+  	left: 6.49%;
+  	font-family: Poppins;
+}
+.por-unha {
+  	font-size: 14px;
+  	font-weight: 500;
+  	font-family: Poppins;
+}
+.reposio-de-unhas-container {
+  	position: absolute;
+  	width: 49.19%;
+  	top: 80.54%;
+  	left: 6.49%;
+  	display: inline-block;
+  	font-family: Poppins;
+}
+.banho-de-gel1 {
+  	position: absolute;
+  	top: 71.62%;
+  	left: 6.49%;
+  	font-family: Poppins;
+  	white-space: pre-wrap;
+}
+.spa-dos-ps {
+  	position: absolute;
+  	width: 59.19%;
+  	top: 51.62%;
+  	left: 6.49%;
+  	display: inline-block;
+  	font-family: Poppins;
+}
+.spa-dos-ps1 {
+  	position: absolute;
+  	width: 55.41%;
+  	top: 61.62%;
+  	left: 6.49%;
+  	display: inline-block;
+  	font-family: Poppins;
+}
+.valor7 {
+  	position: absolute;
+  	top: 150px;
+  	left: 270px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.valor8 {
+  	position: absolute;
+  	top: 187px;
+  	left: 270px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.valor9 {
+  	position: absolute;
+  	top: 224px;
+  	left: 270px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.valor10 {
+  	position: absolute;
+  	top: 261px;
+  	left: 270px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.r-500 {
+  	position: absolute;
+  	top: 6px;
+  	left: calc(50% - 26px);
+}
+.valor11 {
+  	position: absolute;
+  	top: 298px;
+  	left: 270px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.pedicure {
+  	position: absolute;
+  	top: 5px;
+  	left: 394px;
+  	width: 370px;
+  	height: 370px;
+}
+.manuteno {
+  	position: absolute;
+  	top: 10.25%;
+  	left: calc(50% - 114px);
+  	font-size: 34px;
+  	display: inline-block;
+  	width: 228px;
+}
+.de-30-ou {
+  	position: absolute;
+  	top: 47.75%;
+  	left: 6.49%;
+  	font-family: Poppins;
+}
+.banho-de-gel2 {
+  	position: absolute;
+  	top: 57%;
+  	left: 6.49%;
+  	font-family: Poppins;
+}
+.de-20 {
+  	position: absolute;
+  	width: 55.41%;
+  	top: 38.5%;
+  	left: 6.49%;
+  	display: inline-block;
+  	font-family: Poppins;
+}
+.valor13 {
+  	position: absolute;
+  	top: 150px;
+  	left: 271px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.valor14 {
+  	position: absolute;
+  	top: 187px;
+  	left: 271px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.valor15 {
+  	position: absolute;
+  	top: 224px;
+  	left: 271px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+}
+.remoo {
+  	position: absolute;
+  	top: 0px;
+  	left: 788px;
+  	width: 370px;
+  	height: 400px;
+}
+.remoo1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 1182px;
+  	width: 370px;
+  	height: 400px;
+}
+.adicionais1 {
+  	position: absolute;
+  	top: 10.25%;
+  	left: calc(50% - 114px);
+  	font-size: 34px;
+  	display: inline-block;
+  	font-family: Poppins;
+  	width: 228px;
+}
+.decoraes {
+  	position: absolute;
+  	top: 29.25%;
+  	left: 6.49%;
+}
+.encapsulado-par {
+  	position: absolute;
+  	top: 46.75%;
+  	left: 11.89%;
+}
+.nail-art- {
+  	position: absolute;
+  	top: 55.25%;
+  	left: 11.89%;
+}
+.decorao-3d-par-container {
+  	position: absolute;
+  	width: 55.41%;
+  	top: 38.25%;
+  	left: 11.89%;
+  	display: inline-block;
+}
+.r-1000 {
+  	position: absolute;
+  	top: 6px;
+  	left: calc(50% - 29px);
+}
+.valor20 {
+  	position: absolute;
+  	top: 150px;
+  	left: 271px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+  	font-family: Montserrat;
+}
+.valor21 {
+  	position: absolute;
+  	top: 187px;
+  	left: 271px;
+  	width: 78px;
+  	height: 28px;
+  	font-size: 14px;
+  	color: #050404;
+  	font-family: Montserrat;
+}
+.material-symbols-lightstar-icon {
+  	position: absolute;
+  	top: 151px;
+  	left: 9px;
+  	width: 30px;
+  	height: 30px;
+  	overflow: hidden;
+}
+.material-symbols-lightstar-icon1 {
+  	position: absolute;
+  	top: 186px;
+  	left: 9px;
+  	width: 30px;
+  	height: 30px;
+  	overflow: hidden;
+}
+.material-symbols-lightstar-icon2 {
+  	position: absolute;
+  	top: 221px;
+  	left: 9px;
+  	width: 30px;
+  	height: 30px;
+  	overflow: hidden;
+}
+.adicionais {
+  	position: absolute;
+  	top: 0px;
+  	left: 1576px;
+  	width: 370px;
+  	height: 400px;
+  	font-family: Poppins;
+}
+.tabela-de-valores2 {
+  	position: absolute;
+    align-items: center;
+  	top: 325px;
+  	left: 163px;
+  	width: 1198px;
+  	height: 405px;
+  	overflow-x: auto;
+  	font-size: 16px;
+  	color: #d43d63;
+}
+.ioncard-sharp-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 60px;
+  	height: 60px;
+  	overflow: hidden;
+}
+.carto1 {
+  	position: absolute;
+  	top: 58px;
+  	left: calc(50% - 25px);
+  	font-weight: 500;
+}
+.carto {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 60px;
+  	height: 75px;
+}
+.pix1 {
+  	position: absolute;
+  	top: 55px;
+  	left: calc(50% - 13px);
+  	font-weight: 500;
+}
+.pix {
+  	position: absolute;
+  	top: 1px;
+  	left: 81px;
+  	width: 60px;
+  	height: 72px;
+}
+.dinheiro1 {
+  	position: absolute;
+  	top: 58px;
+  	left: calc(50% - 31px);
+  	font-weight: 500;
+}
+.dinheiro {
+  	position: absolute;
+  	top: 0px;
+  	left: 160px;
+  	width: 62px;
+  	height: 75px;
+}
+.formas-de-pagamento {
+  	position: absolute;
+  	top: 871px;
+  	left: calc(50% - 127.5px);
+  	width: 222px;
+  	height: 75px;
+  	overflow: hidden;
+  	font-size: 14px;
+}
+.formas-de-pagamento1 {
+  	position: absolute;
+  	top: 790px;
+  	left: calc(50% - 228.5px);
+  	font-size: 34px;
+}
+.tabela-de-valores-fluxo-de-nav {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: rgba(217, 217, 217, 0);
+  	width: 1511px;
+  	height: 649px;
+}
+.tabela-de-valores {
+  	width: 100%;
+  	position: relative;
+  	height: 1052px;
+  	text-align: left;
+  	font-size: 40px;
+  	color: #fff;
+  	font-family: Montserrat;
+}
+

@@ -1,0 +1,59 @@
+.procedimentos {
+  padding: 60px 5%;
+  background-color: #fffafa;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.procedimentos-title {
+  font-size: 2.2rem;
+  color: #d43d63;
+  margin-bottom: 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.procedimentos-subtitle {
+  font-size: 1.1rem;
+  color: #d43d63;
+  margin-bottom: 40px;
+}
+
+.procedimentos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.procedimento-card {
+  width: 100%;
+  max-width: 300px; 
+  height: 375px; /* altura do card */
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.procedimento-card img {
+  flex: 1;
+  width: 100%;
+  object-fit: cover;
+}
+
+.procedimento-info {
+  padding: 14px;
+  background: #fff;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  color: #d43d63;
+}
+
+.procedimento-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
